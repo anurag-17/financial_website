@@ -1,0 +1,131 @@
+.empoweringYouTo {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 70px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.enteryouremailChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.enteryouremail {
+  width: 1030px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.byPartneringWith,
+.financeGroupIs {
+  height: 140px;
+  width: 663px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 663px;
+  max-width: 100%;
+}
+.byPartneringWith {
+  width: 628px;
+  min-width: 628px;
+}
+.fullName,
+.therearemanyvariationsofpassag {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.therearemanyvariationsofpassag {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-lg);
+}
+.fullName {
+  width: 1386px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-38xl);
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-yellowgreen-200);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.layer2Icon {
+  position: absolute;
+  bottom: 4.6px;
+  left: calc(50% - 14.9px);
+  width: 30.1px;
+  height: 22.8px;
+  object-fit: contain;
+  z-index: 1;
+}
+.rectangleParent {
+  height: 33px;
+  width: 33px;
+  position: absolute;
+  margin: 0 !important;
+  top: 19px;
+  right: 20.5px;
+  background-color: var(--color-yellowgreen-200);
+}
+.contactUs {
+  width: 1641px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-xs);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-26xl);
+  color: var(--color-black);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 1350px) {
+  .byPartneringWith,
+  .financeGroupIs {
+    flex: 1;
+  }
+  .therearemanyvariationsofpassag {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 925px) {
+  .empoweringYouTo {
+    font-size: var(--font-size-17xl);
+    line-height: 56px;
+  }
+  .byPartneringWith,
+  .financeGroupIs {
+    min-width: 100%;
+  }
+  .fullName {
+    gap: var(--gap-38xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .empoweringYouTo {
+    font-size: var(--font-size-8xl);
+    line-height: 42px;
+  }
+}

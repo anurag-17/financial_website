@@ -1,0 +1,70 @@
+.getAFree {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 70px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.frameChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.getAFreeFinancialPlanningParent {
+  width: 904px;
+  flex-direction: column;
+  gap: var(--gap-8xs);
+}
+.frameGroup,
+.frameParent,
+.getAFreeFinancialPlanningParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-61xl);
+  font-size: var(--font-size-21xl);
+}
+.frameParent {
+  width: 1641px;
+  flex-direction: column;
+  padding: 0 var(--padding-2xl) var(--padding-lgi) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-66xl);
+  text-align: left;
+  font-size: var(--font-size-26xl);
+  color: var(--color-black);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 925px) {
+  .getAFree {
+    font-size: var(--font-size-17xl);
+    line-height: 56px;
+  }
+  .frameGroup {
+    gap: var(--gap-61xl);
+  }
+  .frameParent {
+    gap: var(--gap-66xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .getAFree {
+    font-size: var(--font-size-8xl);
+    line-height: 42px;
+  }
+  .frameGroup {
+    gap: var(--gap-61xl);
+  }
+  .frameParent {
+    gap: var(--gap-66xl);
+  }
+}

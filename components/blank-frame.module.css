@@ -1,0 +1,319 @@
+.thereAreMany {
+  height: 140px;
+  width: 480px;
+  position: absolute;
+  margin: 0 !important;
+  top: 306px;
+  right: -74px;
+  line-height: 35px;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.digitalMarketingSegmentChild {
+  width: 1920px;
+  height: 756px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightgoldenrodyellow);
+  display: none;
+  max-width: 100%;
+}
+.nA,
+.realPeopleReal {
+  position: relative;
+  z-index: 1;
+}
+.realPeopleReal {
+  margin: 0;
+  font-size: inherit;
+  line-height: 45px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.nA {
+  align-self: stretch;
+  height: 1px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.realResultsGroup,
+.vectorStrokeDigit {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.realResultsGroup {
+  width: 537px;
+  flex-direction: column;
+  gap: var(--gap-lg);
+}
+.vectorStrokeDigit {
+  width: 1601px;
+  flex-direction: row;
+  font-size: var(--font-size-26xl);
+}
+.groupIcon,
+.thereAreMany1 {
+  position: relative;
+  z-index: 1;
+}
+.groupIcon {
+  width: 20.3px;
+  height: 17.9px;
+}
+.thereAreMany1 {
+  align-self: stretch;
+  height: 140px;
+  line-height: 35px;
+  font-weight: 600;
+  display: inline-block;
+}
+.nA3 {
+  width: 624px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+.groupIcon1 {
+  width: 20.3px;
+  height: 17.9px;
+  position: relative;
+  z-index: 1;
+}
+.thereAreMany2 {
+  align-self: stretch;
+  height: 140px;
+  position: relative;
+  line-height: 35px;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.nA4 {
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+  max-width: 100%;
+}
+.groupIcon2 {
+  height: 17.9px;
+  width: 20.3px;
+  position: relative;
+  z-index: 1;
+}
+.nA1,
+.nA2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.nA2 {
+  width: 1374px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.nA1 {
+  width: 1599px;
+  justify-content: flex-start;
+}
+.vectorStrokeIcon {
+  height: 35px;
+  width: 35px;
+  position: relative;
+  min-height: 35px;
+  z-index: 1;
+}
+.digitalMarketing {
+  position: relative;
+  line-height: 35px;
+  font-weight: 600;
+  z-index: 1;
+}
+.strokeSegment {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-49xl) 0 0;
+  gap: var(--gap-xl);
+}
+.segment,
+.vectorIcon {
+  position: relative;
+  z-index: 1;
+}
+.vectorIcon {
+  align-self: stretch;
+  width: 45.1px;
+  max-height: 100%;
+  min-height: 35px;
+}
+.segment {
+  line-height: 35px;
+  font-weight: 600;
+}
+.strokeSegment1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.lighthouse,
+.vectorIcon1 {
+  position: relative;
+  z-index: 1;
+}
+.vectorIcon1 {
+  height: 35px;
+  width: 31.8px;
+  min-height: 35px;
+}
+.lighthouse {
+  line-height: 35px;
+  font-weight: 600;
+}
+.strokeSegment2,
+.vectorFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.vectorFrame {
+  width: 1522px;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.lineChild,
+.lineItem {
+  height: 1px;
+  position: relative;
+  box-sizing: border-box;
+}
+.lineChild {
+  width: 630px;
+  border-top: 1px solid var(--color-black);
+  max-width: calc(100% - 972px);
+  z-index: 2;
+}
+.lineItem {
+  flex: 1;
+  border-top: 1px solid var(--color-lightgray);
+  max-width: 100%;
+  z-index: 1;
+  margin-left: -629px;
+}
+.line {
+  align-self: stretch;
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.financeVectorFrame {
+  width: 1601px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-40xl);
+}
+.blankFrame,
+.digitalMarketingSegment,
+.financeVectorFrame,
+.parentFrame {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.digitalMarketingSegment {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightgoldenrodyellow);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-115xl) var(--padding-2xl) var(--padding-122xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-58xl);
+}
+.blankFrame,
+.parentFrame {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.parentFrame {
+  flex: 1;
+  position: relative;
+}
+.blankFrame {
+  align-self: stretch;
+  padding: 0 0 var(--padding-lgi);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 1350px) {
+  .nA2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 925px) {
+  .realPeopleReal {
+    font-size: var(--font-size-17xl);
+    line-height: 36px;
+  }
+  .vectorFrame {
+    flex-wrap: wrap;
+  }
+  .financeVectorFrame {
+    gap: var(--gap-40xl);
+  }
+  .digitalMarketingSegment {
+    gap: var(--gap-58xl);
+    padding-top: var(--padding-68xl);
+    padding-bottom: var(--padding-73xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .thereAreMany {
+    font-size: var(--font-size-lg);
+    line-height: 28px;
+  }
+  .realPeopleReal {
+    font-size: var(--font-size-8xl);
+    line-height: 27px;
+  }
+  .digitalMarketing,
+  .thereAreMany1,
+  .thereAreMany2 {
+    font-size: var(--font-size-lg);
+    line-height: 28px;
+  }
+  .strokeSegment {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .lighthouse,
+  .segment {
+    font-size: var(--font-size-lg);
+    line-height: 28px;
+  }
+  .digitalMarketingSegment {
+    gap: var(--gap-58xl);
+  }
+}

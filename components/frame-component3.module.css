@@ -1,0 +1,102 @@
+.frameChild {
+  height: 132px;
+  width: 1784px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-honeydew);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.accountingAndBookkeeping,
+.frameFinanceAccounting,
+.stayOnTop {
+  position: relative;
+  line-height: 35px;
+  z-index: 2;
+}
+.stayOnTop {
+  align-self: stretch;
+  height: 56px;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  display: inline-block;
+}
+.groupContactInfo {
+  width: 1134px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  max-width: calc(100% - 60px);
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-yellowgreen-200);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.layer2Icon {
+  position: absolute;
+  bottom: 4.6px;
+  left: calc(50% - 14.9px);
+  width: 30.1px;
+  height: 22.8px;
+  object-fit: contain;
+  z-index: 1;
+}
+.rectangleGroup {
+  height: 33px;
+  width: 33px;
+  position: absolute;
+  margin: 0 !important;
+  right: 92px;
+  bottom: 28px;
+  background-color: var(--color-yellowgreen-200);
+  z-index: 2;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-honeydew);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-75xl) var(--padding-2xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-18xl);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 1350px) {
+  .rectangleParent {
+    padding-left: var(--padding-28xl);
+    padding-right: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 925px) {
+  .rectangleParent {
+    gap: var(--gap-18xl);
+    padding-left: var(--padding-4xl);
+    padding-right: var(--padding-4xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .accountingAndBookkeeping,
+  .frameFinanceAccounting {
+    font-size: var(--font-size-lg);
+    line-height: 28px;
+  }
+}

@@ -1,0 +1,293 @@
+.finance,
+.isCommittedTo,
+.span,
+.span1 {
+  font-weight: 600;
+  font-family: var(--font-manrope);
+}
+.isCommittedTo,
+.span,
+.span1 {
+  font-weight: 500;
+}
+.isCommittedTo,
+.span1 {
+  font-weight: 300;
+}
+.span1 {
+  font-weight: 500;
+}
+.and,
+.delivering,
+.excellence,
+.span2,
+.span3 {
+  font-weight: 300;
+  font-family: var(--font-manrope);
+}
+.and,
+.excellence,
+.span2,
+.span3 {
+  font-weight: 500;
+}
+.and,
+.excellence,
+.span3 {
+  font-weight: 600;
+}
+.and,
+.span3 {
+  font-weight: 500;
+}
+.and {
+  font-weight: 300;
+}
+.addingValue,
+.span4,
+.span5,
+.span6 {
+  font-weight: 500;
+  font-family: var(--font-manrope);
+}
+.addingValue,
+.span5,
+.span6 {
+  font-weight: 600;
+}
+.span5,
+.span6 {
+  font-weight: 500;
+}
+.financeIsCommittedToDelive {
+  margin: 0;
+}
+.weServe {
+  margin: 0;
+  font-weight: 600;
+}
+.financeIsCommittedContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 280px;
+  position: relative;
+  font-size: inherit;
+  line-height: 70px;
+  display: inline-block;
+  z-index: 1;
+  font-family: inherit;
+}
+.contactUs {
+  width: 198px;
+  height: 4px;
+  position: absolute;
+  margin: 0 !important;
+  top: 69px;
+  left: 4px;
+  border-top: 4px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.contactUs1 {
+  width: 277px;
+  top: calc(50% - 0px);
+  left: 254px;
+}
+.contactUs1,
+.contactUs2,
+.contactUs3 {
+  height: 4px;
+  position: absolute;
+  margin: 0 !important;
+  border-top: 4px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.contactUs2 {
+  width: 142px;
+  top: calc(50% - 0px);
+  right: 42px;
+}
+.contactUs3 {
+  width: 138px;
+  bottom: 67px;
+  left: 0;
+}
+.followUs {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-shrink: 0;
+}
+.enterYourEmail {
+  width: 240px;
+  height: 4px;
+  position: relative;
+  border-top: 4px solid var(--color-black);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.financeAccounting {
+  width: 840px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.financeGroupIs {
+  height: 56px;
+  width: 663px;
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.monthGroup {
+  height: 64px;
+  width: 275px;
+  z-index: 2;
+}
+.digitalMarketing,
+.message {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.message {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-lg);
+}
+.digitalMarketing {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-20xl);
+}
+.vectorStrokeChild {
+  width: 160px;
+  height: 45px;
+  z-index: 1;
+}
+.vectorStroke,
+.vectorStrokeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vectorStroke {
+  align-self: stretch;
+  padding: 0 var(--padding-9xs) 0 0;
+  gap: var(--gap-36xl);
+}
+.vectorStrokeWrapper {
+  flex: 1;
+  padding: 0 0 var(--padding-9xs);
+}
+.frameChild {
+  height: 64px;
+  width: 235px;
+  z-index: 2;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.realPeopleRealResultsChild {
+  height: 535.7px;
+  width: 445px;
+  position: absolute;
+  margin: 0 !important;
+  top: -433px;
+  left: -299px;
+  object-fit: contain;
+  z-index: 1;
+}
+.digitalMarketing1 {
+  height: 64px;
+  flex: 1;
+  z-index: 2;
+}
+.frameParent,
+.getStarted,
+.realPeopleRealResults {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.realPeopleRealResults {
+  width: 196px;
+  flex-direction: row;
+  position: relative;
+}
+.frameParent,
+.getStarted {
+  width: 294px;
+  flex-direction: column;
+  gap: var(--gap-165xl);
+}
+.getStarted {
+  width: 1640px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-155xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-36xl);
+  color: var(--color-black);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 1350px) {
+  .message {
+    flex-wrap: wrap;
+  }
+  .getStarted {
+    gap: var(--gap-155xl);
+  }
+}
+@media screen and (max-width: 925px) {
+  .financeIsCommittedContainer {
+    font-size: var(--font-size-25xl);
+    line-height: 56px;
+  }
+  .digitalMarketing {
+    gap: var(--gap-20xl);
+  }
+  .vectorStroke {
+    gap: var(--gap-36xl);
+  }
+  .vectorStrokeWrapper {
+    min-width: 100%;
+  }
+  .getStarted {
+    gap: var(--gap-155xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .financeIsCommittedContainer {
+    font-size: var(--font-size-14xl);
+    line-height: 42px;
+  }
+  .frameParent {
+    gap: var(--gap-165xl);
+  }
+  .getStarted {
+    gap: var(--gap-155xl);
+  }
+}

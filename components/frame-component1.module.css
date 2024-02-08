@@ -1,0 +1,112 @@
+.frameChild,
+.groupChild {
+  height: 475px;
+  width: 480px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-lightgoldenrodyellow);
+  display: none;
+  max-width: 100%;
+}
+.groupChild {
+  width: 454px;
+  height: 453px;
+  background-color: var(--color-white);
+}
+.month1,
+.thereAreMany {
+  position: relative;
+  z-index: 2;
+}
+.month1 {
+  line-height: 60px;
+  font-weight: 600;
+}
+.thereAreMany {
+  align-self: stretch;
+  height: 112px;
+  font-size: var(--font-size-lg);
+  line-height: 28px;
+  display: inline-block;
+}
+.month {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.getConsultation {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-yellowgreen-100);
+  box-sizing: border-box;
+  z-index: 2;
+}
+.startFrameChild {
+  width: 160px;
+  height: 45px;
+  z-index: 2;
+}
+.startFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-14xl);
+}
+.group,
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.group {
+  background-color: var(--color-white);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-40xl) var(--padding-22xl) var(--padding-55xl);
+  gap: var(--gap-37xl);
+  z-index: 1;
+}
+.rectangleParent {
+  background-color: var(--color-lightgoldenrodyellow);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-2xs);
+  min-width: 360px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 925px) {
+  .month1 {
+    font-size: var(--font-size-13xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .month1 {
+    font-size: var(--font-size-5xl);
+    line-height: 36px;
+  }
+  .startFrame {
+    gap: var(--gap-14xl);
+  }
+  .group {
+    gap: var(--gap-37xl);
+    padding-top: var(--padding-19xl);
+    padding-bottom: var(--padding-29xl);
+    box-sizing: border-box;
+  }
+  .rectangleParent {
+    min-width: 100%;
+  }
+}

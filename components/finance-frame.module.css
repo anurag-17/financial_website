@@ -1,0 +1,294 @@
+.financeFrameChild {
+  width: 1784px;
+  height: 576px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-black);
+  display: none;
+  max-width: 100%;
+}
+.financeAccounting {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 70px;
+  font-weight: 600;
+  font-family: inherit;
+  z-index: 1;
+}
+.financeText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-smi);
+  font-size: var(--font-size-11xl);
+}
+.financeGroupIs {
+  align-self: stretch;
+  height: 90px;
+  position: relative;
+  line-height: 30px;
+  color: var(--color-dimgray);
+  display: inline-block;
+  z-index: 1;
+}
+.followUs1 {
+  position: relative;
+  line-height: 35px;
+  z-index: 1;
+}
+.callMailInfofinancecoChild,
+.callMailInfofinancecoInner,
+.callMailInfofinancecoItem,
+.groupIcon {
+  height: 29.2px;
+  width: 29.2px;
+  position: relative;
+  min-height: 29px;
+  z-index: 1;
+}
+.groupIcon {
+  object-fit: contain;
+}
+.accountingFrame,
+.callMailInfofinanceco,
+.followUs {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.accountingFrame,
+.followUs {
+  flex-direction: column;
+  gap: var(--gap-smi);
+}
+.accountingFrame {
+  flex: 1;
+  gap: var(--gap-8xl);
+  min-width: 256px;
+  max-width: 100%;
+}
+.contactUs {
+  position: relative;
+  line-height: 30px;
+  z-index: 1;
+}
+.callUs {
+  color: var(--color-white);
+}
+.callUs011234567890 {
+  margin: 0;
+}
+.mailUs {
+  color: var(--color-white);
+}
+.mailUsInfofinancecom {
+  margin: 0;
+}
+.callUs01Container {
+  height: 92px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 46px;
+  white-space: pre-wrap;
+  display: inline-block;
+  z-index: 1;
+  color: var(--color-dimgray);
+}
+.message {
+  flex-direction: column;
+  gap: var(--gap-4xl);
+}
+.fullNameEnteremail,
+.getStarted,
+.message {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fullNameEnteremail {
+  flex-direction: column;
+  padding: var(--padding-smi) 0 0;
+  box-sizing: border-box;
+  min-width: 204px;
+}
+.getStarted {
+  width: 739px;
+  flex-direction: row;
+  gap: var(--gap-122xl);
+  min-width: 739px;
+  max-width: 100%;
+}
+.getStarted1 {
+  position: relative;
+  line-height: 30px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.fullNameInput,
+.fullNameInput1 {
+  border: 0;
+  background-color: transparent;
+  height: 39px;
+  flex: 1;
+  font-family: var(--font-manrope);
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+  min-width: 213px;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameGroupVectorStrokeSegm {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+  max-width: 100%;
+}
+.messageInput {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 116px;
+  font-family: var(--font-manrope);
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+  z-index: 1;
+}
+.getStartedCTAChild {
+  width: 160px;
+  height: 37px;
+  z-index: 1;
+}
+.contactForm,
+.getStartedCTA {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.getStartedCTA {
+  margin: 0;
+  align-self: stretch;
+  gap: var(--gap-xl);
+}
+.contactForm {
+  width: 686px;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-10xl);
+  min-width: 686px;
+}
+.contactGroup {
+  width: 1602px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.financeAll,
+.textInput {
+  position: relative;
+  z-index: 1;
+}
+.textInput {
+  align-self: stretch;
+  height: 1px;
+  border-top: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+}
+.financeAll {
+  line-height: 24px;
+  white-space: pre-wrap;
+}
+.financeFrame,
+.textInputParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.textInputParent {
+  width: 1600px;
+  height: 49px;
+  align-items: flex-start;
+  gap: var(--gap-6xl);
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray);
+}
+.financeFrame {
+  width: 1784px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-black);
+  align-items: center;
+  padding: var(--padding-72xl) var(--padding-3xl) var(--padding-35xl)
+    var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-59xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 1825px) {
+  .getStarted {
+    flex: 1;
+  }
+  .contactForm {
+    flex: 1;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .contactGroup {
+    flex-wrap: wrap;
+  }
+  .financeFrame {
+    width: calc(100% - 40px);
+  }
+}
+@media screen and (max-width: 925px) {
+  .financeAccounting {
+    font-size: var(--font-size-5xl);
+    line-height: 56px;
+  }
+  .fullNameEnteremail {
+    flex: 1;
+  }
+  .getStarted {
+    gap: var(--gap-122xl);
+    min-width: 100%;
+  }
+  .frameGroupVectorStrokeSegm,
+  .getStarted {
+    flex-wrap: wrap;
+  }
+  .contactForm {
+    min-width: 100%;
+  }
+  .financeFrame {
+    gap: var(--gap-59xl);
+    padding-top: var(--padding-40xl);
+    padding-bottom: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .financeAccounting {
+    font-size: var(--font-size-lg);
+    line-height: 42px;
+  }
+  .getStarted {
+    gap: var(--gap-122xl);
+  }
+  .financeFrame {
+    gap: var(--gap-59xl);
+  }
+}
